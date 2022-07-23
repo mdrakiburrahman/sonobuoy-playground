@@ -1,0 +1,21 @@
+name: cmd-runner
+status: passed
+meta:
+  type: summary
+items:
+- name: out0
+  status: passed
+  meta:
+    file: results/global/out0
+- name: out1
+  status: passed
+  meta:
+    file: results/global/out1
+- name: out2
+  status: passed
+  meta:
+    file: results/global/out2
+- name: out3
+  status: passed
+  meta:
+    file: results/global/out3

@@ -1,0 +1,36 @@
+{"level":"info","msg":"Starting server Expected Results: [{global cmd-runner}]","time":"2022-07-23T15:08:46Z"}
+{"level":"info","msg":"Starting annotation update routine","time":"2022-07-23T15:08:46Z"}
+{"address":"0.0.0.0","level":"info","msg":"Starting aggregation server","port":8080,"time":"2022-07-23T15:08:46Z"}
+{"level":"info","msg":"Running plugin","plugin":"cmd-runner","time":"2022-07-23T15:08:46Z"}
+{"client_cert":["cmd-runner"],"level":"info","method":"PUT","msg":"received request","plugin_name":"cmd-runner","time":"2022-07-23T15:08:57Z","url":{"Scheme":"","Opaque":"","User":null,"Host":"","Path":"/api/v1/results/global/cmd-runner","RawPath":"","ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"level":"info","msg":"Last update to annotations on exit","time":"2022-07-23T15:08:57Z"}
+{"level":"info","msg":"Shutting down aggregation server","time":"2022-07-23T15:08:57Z"}
+{"level":"info","msg":"Resources is not set explicitly implying query all resources, but skipping secrets for safety. Specify the value explicitly in Resources to gather this data.","time":"2022-07-23T15:08:57Z"}
+{"level":"info","msg":"Collecting Node Configuration and Health...","time":"2022-07-23T15:08:57Z"}
+{"level":"info","msg":"Creating host results for aks-agentpool-16430811-vmss000002 under /tmp/sonobuoy/8650e677-fe8c-4d3f-87bd-7bd78b705a6b/hosts/aks-agentpool-16430811-vmss000002\n","time":"2022-07-23T15:08:57Z"}
+{"level":"info","msg":"Running cluster queries","time":"2022-07-23T15:08:57Z"}
+{"level":"info","msg":"Querying server version and API Groups","time":"2022-07-23T15:08:58Z"}
+{"level":"info","msg":"Filtering namespaces based on the following regex:.*","time":"2022-07-23T15:08:58Z"}
+{"level":"info","msg":"Namespace default Matched=true","time":"2022-07-23T15:08:58Z"}
+{"level":"info","msg":"Namespace kube-node-lease Matched=true","time":"2022-07-23T15:08:58Z"}
+{"level":"info","msg":"Namespace kube-public Matched=true","time":"2022-07-23T15:08:58Z"}
+{"level":"info","msg":"Namespace kube-system Matched=true","time":"2022-07-23T15:08:58Z"}
+{"level":"info","msg":"Namespace sonobuoy Matched=true","time":"2022-07-23T15:08:58Z"}
+{"level":"info","msg":"Running ns query (default)","time":"2022-07-23T15:08:58Z"}
+{"level":"info","msg":"Running ns query (kube-node-lease)","time":"2022-07-23T15:08:58Z"}
+{"level":"info","msg":"Running ns query (kube-public)","time":"2022-07-23T15:08:58Z"}
+{"level":"info","msg":"Running ns query (kube-system)","time":"2022-07-23T15:08:59Z"}
+{"level":"info","msg":"Running ns query (sonobuoy)","time":"2022-07-23T15:09:00Z"}
+{"level":"info","msg":"Namespace default Matched=false","time":"2022-07-23T15:09:01Z"}
+{"level":"info","msg":"Namespace kube-node-lease Matched=false","time":"2022-07-23T15:09:01Z"}
+{"level":"info","msg":"Namespace kube-public Matched=false","time":"2022-07-23T15:09:01Z"}
+{"level":"info","msg":"Namespace kube-system Matched=true","time":"2022-07-23T15:09:01Z"}
+{"level":"info","msg":"Namespace sonobuoy Matched=true","time":"2022-07-23T15:09:01Z"}
+{"level":"info","msg":"querying pod logs under namespace kube-system","time":"2022-07-23T15:09:01Z"}
+{"level":"info","msg":"Collecting Pod Logs by namespace (kube-system)","time":"2022-07-23T15:09:01Z"}
+{"level":"info","msg":"querying pod logs under namespace sonobuoy","time":"2022-07-23T15:09:01Z"}
+{"level":"info","msg":"Collecting Pod Logs by namespace (sonobuoy)","time":"2022-07-23T15:09:01Z"}
+{"level":"info","msg":"Collecting Pod Logs by FieldSelectors: []","time":"2022-07-23T15:09:01Z"}
+{"level":"info","msg":"recording query times at /tmp/sonobuoy/8650e677-fe8c-4d3f-87bd-7bd78b705a6b/meta/query-time.json","time":"2022-07-23T15:09:01Z"}
+{"level":"info","msg":"Log lines after this point will not appear in the downloaded tarball.","time":"2022-07-23T15:09:01Z"}
+{"level":"info","msg":"Invoking plugin cleanup","plugin":"cmd-runner","time":"2022-07-23T15:09:01Z"}

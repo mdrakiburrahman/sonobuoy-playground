@@ -1,0 +1,26 @@
++ results_dir=/tmp/sonobuoy/results
++ mkdir -p /tmp/sonobuoy/results
++ trap saveResults EXIT
++ [ 4 -eq 0 ]
++ i=0
++ [ echo ➡️ Running a command! !=  ]
++ /bin/sh -c echo ➡️ Running a command!
++ i=1
++ shift
++ [ kubectl cluster-info !=  ]
++ /bin/sh -c kubectl cluster-info
++ i=2
++ shift
++ [ kubectl auth can-i get pods !=  ]
++ /bin/sh -c kubectl auth can-i get pods
++ i=3
++ shift
++ [ echo ➡️ Done! !=  ]
++ /bin/sh -c echo ➡️ Done!
++ i=4
++ shift
++ [  !=  ]
++ saveResults
++ cd /tmp/sonobuoy/results
++ tar czf results.tar.gz out0 out1 out2 out3
++ printf /tmp/sonobuoy/results/results.tar.gz

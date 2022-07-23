@@ -1,0 +1,5 @@
+I0723 14:26:51.805681       1 autoscaler.go:49] Scaling Namespace: kube-system, Target: deployment/coredns
+I0723 14:26:52.347051       1 plugin.go:50] Set control mode to ladder
+I0723 14:26:52.347232       1 ladder_controller.go:72] Detected ConfigMap version change (old:  new: 1284) - rebuilding lookup entries
+I0723 14:26:52.347326       1 ladder_controller.go:73] Params from apiserver: 
+{"coresToReplicas":[[1,2],[512,3],[1024,4],[2048,5]],"nodesToReplicas":[[1,2],[8,3],[16,4],[32,5]]}

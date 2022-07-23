@@ -1,0 +1,3 @@
+I0723 14:11:04.736212       1 main.go:149] calling CSI driver to discover driver name
+I0723 14:11:04.757151       1 main.go:155] CSI driver name: "file.csi.azure.com"
+I0723 14:11:04.757184       1 main.go:183] ServeMux listening at "0.0.0.0:29613"

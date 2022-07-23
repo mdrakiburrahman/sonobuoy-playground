@@ -1,0 +1,82 @@
+I0723 14:11:04.006140       1 main.go:111] set up prometheus server on [::]:29615
+I0723 14:11:04.049762       1 azurefile.go:279] 
+DRIVER INFORMATION:
+-------------------
+Build Date: "2022-06-11T01:25:19Z"
+Compiler: gc
+Driver Name: file.csi.azure.com
+Driver Version: v1.19.0
+Git Commit: 891ef9191b80ffe4a73972264274249a546262c8
+Go Version: go1.18.1
+Platform: linux/amd64
+
+Streaming logs below:
+I0723 14:11:04.049804       1 azurefile.go:282] driver userAgent: file.csi.azure.com/v1.19.0 gc/go1.18.1 (amd64-linux)
+I0723 14:11:04.262577       1 azure.go:71] reading cloud config from secret kube-system/azure-cloud-provider
+I0723 14:11:04.346462       1 azure.go:78] InitializeCloudFromSecret: failed to get cloud config from secret kube-system/azure-cloud-provider: failed to get secret kube-system/azure-cloud-provider: secrets "azure-cloud-provider" not found
+I0723 14:11:04.346487       1 azure.go:83] could not read cloud config from secret kube-system/azure-cloud-provider
+I0723 14:11:04.346497       1 azure.go:86] AZURE_CREDENTIAL_FILE env var set as /etc/kubernetes/azure.json
+I0723 14:11:04.346525       1 azure.go:101] read cloud config from file: /etc/kubernetes/azure.json successfully
+I0723 14:11:04.347183       1 azure_auth.go:96] azure: using managed identity extension to retrieve access token
+I0723 14:11:04.357579       1 azure.go:768] Azure cloudprovider using try backoff: retries=6, exponent=1.500000, duration=5, jitter=1.000000
+I0723 14:11:04.357645       1 azure_interfaceclient.go:72] Azure InterfacesClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.357654       1 azure_interfaceclient.go:75] Azure InterfacesClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.357668       1 azure_vmsizeclient.go:68] Azure VirtualMachineSizesClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.357676       1 azure_vmsizeclient.go:71] Azure VirtualMachineSizesClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.385497       1 azure_snapshotclient.go:70] Azure SnapshotClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.385549       1 azure_snapshotclient.go:73] Azure SnapshotClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.385570       1 azure_storageaccountclient.go:70] Azure StorageAccountClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.385581       1 azure_storageaccountclient.go:73] Azure StorageAccountClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.393957       1 azure_diskclient.go:68] Azure DisksClient using API version: 2021-04-01
+I0723 14:11:04.394021       1 azure_diskclient.go:73] Azure DisksClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.394038       1 azure_diskclient.go:76] Azure DisksClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402744       1 azure_vmclient.go:70] Azure VirtualMachine client (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402778       1 azure_vmclient.go:73] Azure VirtualMachine client (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402790       1 azure_vmssclient.go:70] Azure VirtualMachineScaleSetClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402796       1 azure_vmssclient.go:73] Azure VirtualMachineScaleSetClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402806       1 azure_vmssvmclient.go:74] Azure vmssVM client (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402812       1 azure_vmssvmclient.go:77] Azure vmssVM client (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402826       1 azure_routeclient.go:69] Azure RoutesClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402838       1 azure_routeclient.go:72] Azure RoutesClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402847       1 azure_subnetclient.go:70] Azure SubnetsClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402860       1 azure_subnetclient.go:73] Azure SubnetsClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402885       1 azure_routetableclient.go:69] Azure RouteTablesClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402927       1 azure_routetableclient.go:72] Azure RouteTablesClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402944       1 azure_loadbalancerclient.go:70] Azure LoadBalancersClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402950       1 azure_loadbalancerclient.go:73] Azure LoadBalancersClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402959       1 azure_securitygroupclient.go:70] Azure SecurityGroupsClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402965       1 azure_securitygroupclient.go:73] Azure SecurityGroupsClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.402975       1 azure_publicipclient.go:72] Azure PublicIPAddressesClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.403003       1 azure_publicipclient.go:75] Azure PublicIPAddressesClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.414871       1 azure_vmasclient.go:70] Azure AvailabilitySetsClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.414905       1 azure_vmasclient.go:73] Azure AvailabilitySetsClient  (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.423927       1 azure.go:997] attach/detach disk operation rate limit QPS: 6.000000, Bucket: 10
+I0723 14:11:04.423977       1 azure.go:136] starting node server on node(aks-agentpool-16430811-vmss000002)
+I0723 14:11:04.423995       1 azurefile.go:287] cloud: AzurePublicCloud, location: canadacentral, rg: mc_sonobuoy-te_group_sonobuoy-test_canadacentral, VnetName: aks-vnet-32472909, VnetResourceGroup: , SubnetName: aks-subnet
+I0723 14:11:04.432900       1 mount_linux.go:208] Detected OS without systemd
+I0723 14:11:04.432934       1 driver.go:93] Enabling controller service capability: CREATE_DELETE_VOLUME
+I0723 14:11:04.432943       1 driver.go:93] Enabling controller service capability: PUBLISH_UNPUBLISH_VOLUME
+I0723 14:11:04.432948       1 driver.go:93] Enabling controller service capability: CREATE_DELETE_SNAPSHOT
+I0723 14:11:04.432954       1 driver.go:93] Enabling controller service capability: EXPAND_VOLUME
+I0723 14:11:04.432959       1 driver.go:93] Enabling controller service capability: SINGLE_NODE_MULTI_WRITER
+I0723 14:11:04.432965       1 driver.go:112] Enabling volume access mode: SINGLE_NODE_WRITER
+I0723 14:11:04.432971       1 driver.go:112] Enabling volume access mode: SINGLE_NODE_READER_ONLY
+I0723 14:11:04.432976       1 driver.go:112] Enabling volume access mode: SINGLE_NODE_SINGLE_WRITER
+I0723 14:11:04.432981       1 driver.go:112] Enabling volume access mode: SINGLE_NODE_MULTI_WRITER
+I0723 14:11:04.432986       1 driver.go:112] Enabling volume access mode: MULTI_NODE_READER_ONLY
+I0723 14:11:04.432991       1 driver.go:112] Enabling volume access mode: MULTI_NODE_SINGLE_WRITER
+I0723 14:11:04.432996       1 driver.go:112] Enabling volume access mode: MULTI_NODE_MULTI_WRITER
+I0723 14:11:04.433002       1 driver.go:103] Enabling node service capability: STAGE_UNSTAGE_VOLUME
+I0723 14:11:04.433011       1 driver.go:103] Enabling node service capability: SINGLE_NODE_MULTI_WRITER
+I0723 14:11:04.433017       1 driver.go:103] Enabling node service capability: VOLUME_MOUNT_GROUP
+I0723 14:11:04.433022       1 driver.go:103] Enabling node service capability: GET_VOLUME_STATS
+I0723 14:11:04.441610       1 server.go:118] Listening for connections on address: &net.UnixAddr{Name:"//csi/csi.sock", Net:"unix"}
+I0723 14:11:04.737125       1 utils.go:76] GRPC call: /csi.v1.Identity/GetPluginInfo
+I0723 14:11:04.737142       1 utils.go:77] GRPC request: {}
+I0723 14:11:04.746182       1 utils.go:83] GRPC response: {"name":"file.csi.azure.com","vendor_version":"v1.19.0"}
+I0723 14:11:05.546588       1 utils.go:76] GRPC call: /csi.v1.Identity/GetPluginInfo
+I0723 14:11:05.546610       1 utils.go:77] GRPC request: {}
+I0723 14:11:05.546651       1 utils.go:83] GRPC response: {"name":"file.csi.azure.com","vendor_version":"v1.19.0"}
+I0723 14:11:05.692277       1 utils.go:76] GRPC call: /csi.v1.Node/NodeGetInfo
+I0723 14:11:05.692300       1 utils.go:77] GRPC request: {}
+I0723 14:11:05.692369       1 utils.go:83] GRPC response: {"node_id":"aks-agentpool-16430811-vmss000002"}

@@ -1,0 +1,264 @@
+I0723 14:11:03.463378       1 flags.go:64] FLAG: --add-dir-header="false"
+I0723 14:11:03.463532       1 flags.go:64] FLAG: --alsologtostderr="false"
+I0723 14:11:03.463586       1 flags.go:64] FLAG: --bind-address="0.0.0.0"
+I0723 14:11:03.463623       1 flags.go:64] FLAG: --bind-address-hard-fail="false"
+I0723 14:11:03.463642       1 flags.go:64] FLAG: --boot-id-file="/proc/sys/kernel/random/boot_id"
+I0723 14:11:03.463696       1 flags.go:64] FLAG: --cleanup="false"
+I0723 14:11:03.463725       1 flags.go:64] FLAG: --cluster-cidr="10.244.0.0/16"
+I0723 14:11:03.463797       1 flags.go:64] FLAG: --config=""
+I0723 14:11:03.463932       1 flags.go:64] FLAG: --config-sync-period="15m0s"
+I0723 14:11:03.464026       1 flags.go:64] FLAG: --conntrack-max-per-core="32768"
+I0723 14:11:03.464157       1 flags.go:64] FLAG: --conntrack-min="131072"
+I0723 14:11:03.464170       1 flags.go:64] FLAG: --conntrack-tcp-timeout-close-wait="1h0m0s"
+I0723 14:11:03.464175       1 flags.go:64] FLAG: --conntrack-tcp-timeout-established="24h0m0s"
+I0723 14:11:03.464180       1 flags.go:64] FLAG: --detect-local-mode="ClusterCIDR"
+I0723 14:11:03.464187       1 flags.go:64] FLAG: --feature-gates=""
+I0723 14:11:03.464195       1 flags.go:64] FLAG: --healthz-bind-address="0.0.0.0:10256"
+I0723 14:11:03.464251       1 flags.go:64] FLAG: --healthz-port="10256"
+I0723 14:11:03.464262       1 flags.go:64] FLAG: --help="false"
+I0723 14:11:03.464268       1 flags.go:64] FLAG: --hostname-override=""
+I0723 14:11:03.464273       1 flags.go:64] FLAG: --iptables-masquerade-bit="14"
+I0723 14:11:03.464277       1 flags.go:64] FLAG: --iptables-min-sync-period="1s"
+I0723 14:11:03.464283       1 flags.go:64] FLAG: --iptables-sync-period="30s"
+I0723 14:11:03.464287       1 flags.go:64] FLAG: --ipvs-exclude-cidrs="[]"
+I0723 14:11:03.464298       1 flags.go:64] FLAG: --ipvs-min-sync-period="0s"
+I0723 14:11:03.464303       1 flags.go:64] FLAG: --ipvs-scheduler=""
+I0723 14:11:03.464308       1 flags.go:64] FLAG: --ipvs-strict-arp="false"
+I0723 14:11:03.464313       1 flags.go:64] FLAG: --ipvs-sync-period="30s"
+I0723 14:11:03.464318       1 flags.go:64] FLAG: --ipvs-tcp-timeout="0s"
+I0723 14:11:03.464323       1 flags.go:64] FLAG: --ipvs-tcpfin-timeout="0s"
+I0723 14:11:03.464328       1 flags.go:64] FLAG: --ipvs-udp-timeout="0s"
+I0723 14:11:03.464332       1 flags.go:64] FLAG: --kube-api-burst="10"
+I0723 14:11:03.464338       1 flags.go:64] FLAG: --kube-api-content-type="application/vnd.kubernetes.protobuf"
+I0723 14:11:03.464343       1 flags.go:64] FLAG: --kube-api-qps="5"
+I0723 14:11:03.464350       1 flags.go:64] FLAG: --kubeconfig="/var/lib/kubelet/kubeconfig"
+I0723 14:11:03.464355       1 flags.go:64] FLAG: --log-backtrace-at=":0"
+I0723 14:11:03.464369       1 flags.go:64] FLAG: --log-dir=""
+I0723 14:11:03.464374       1 flags.go:64] FLAG: --log-file=""
+I0723 14:11:03.464379       1 flags.go:64] FLAG: --log-file-max-size="1800"
+I0723 14:11:03.464384       1 flags.go:64] FLAG: --log-flush-frequency="5s"
+I0723 14:11:03.464956       1 flags.go:64] FLAG: --logtostderr="true"
+I0723 14:11:03.464977       1 flags.go:64] FLAG: --machine-id-file="/etc/machine-id,/var/lib/dbus/machine-id"
+I0723 14:11:03.464984       1 flags.go:64] FLAG: --masquerade-all="false"
+I0723 14:11:03.464989       1 flags.go:64] FLAG: --master=""
+I0723 14:11:03.464995       1 flags.go:64] FLAG: --metrics-bind-address="0.0.0.0:10249"
+I0723 14:11:03.465001       1 flags.go:64] FLAG: --metrics-port="10249"
+I0723 14:11:03.465006       1 flags.go:64] FLAG: --nodeport-addresses="[]"
+I0723 14:11:03.465022       1 flags.go:64] FLAG: --one-output="false"
+I0723 14:11:03.465029       1 flags.go:64] FLAG: --oom-score-adj="-999"
+I0723 14:11:03.465034       1 flags.go:64] FLAG: --pod-bridge-interface=""
+I0723 14:11:03.465039       1 flags.go:64] FLAG: --pod-interface-name-prefix=""
+I0723 14:11:03.465043       1 flags.go:64] FLAG: --profiling="false"
+I0723 14:11:03.465050       1 flags.go:64] FLAG: --proxy-mode=""
+I0723 14:11:03.465062       1 flags.go:64] FLAG: --proxy-port-range=""
+I0723 14:11:03.465068       1 flags.go:64] FLAG: --show-hidden-metrics-for-version=""
+I0723 14:11:03.465073       1 flags.go:64] FLAG: --skip-headers="false"
+I0723 14:11:03.465079       1 flags.go:64] FLAG: --skip-log-headers="false"
+I0723 14:11:03.465083       1 flags.go:64] FLAG: --stderrthreshold="2"
+I0723 14:11:03.465088       1 flags.go:64] FLAG: --udp-timeout="250ms"
+I0723 14:11:03.465093       1 flags.go:64] FLAG: --v="3"
+I0723 14:11:03.465098       1 flags.go:64] FLAG: --version="false"
+I0723 14:11:03.465105       1 flags.go:64] FLAG: --vmodule=""
+I0723 14:11:03.465110       1 flags.go:64] FLAG: --write-config-to=""
+I0723 14:11:03.465122       1 server.go:227] "Warning, all flags other than --config, --write-config-to, and --cleanup are deprecated, please begin using a config file ASAP"
+I0723 14:11:03.465258       1 feature_gate.go:245] feature gates: &{map[]}
+I0723 14:11:03.465349       1 feature_gate.go:245] feature gates: &{map[]}
+E0723 14:11:03.492633       1 proxier.go:643] "Failed to read builtin modules file, you can ignore this message when kube-proxy is running inside container without mounting /lib/modules" err="open /lib/modules/5.4.0-1085-azure/modules.builtin: no such file or directory" filePath="/lib/modules/5.4.0-1085-azure/modules.builtin"
+I0723 14:11:03.956600       1 proxier.go:653] "Failed to load kernel module with modprobe, you can ignore this message when kube-proxy is running inside container without mounting /lib/modules" moduleName="ip_vs"
+I0723 14:11:03.958792       1 proxier.go:653] "Failed to load kernel module with modprobe, you can ignore this message when kube-proxy is running inside container without mounting /lib/modules" moduleName="ip_vs_rr"
+I0723 14:11:03.960625       1 proxier.go:653] "Failed to load kernel module with modprobe, you can ignore this message when kube-proxy is running inside container without mounting /lib/modules" moduleName="ip_vs_wrr"
+I0723 14:11:03.962407       1 proxier.go:653] "Failed to load kernel module with modprobe, you can ignore this message when kube-proxy is running inside container without mounting /lib/modules" moduleName="ip_vs_sh"
+I0723 14:11:03.964227       1 proxier.go:653] "Failed to load kernel module with modprobe, you can ignore this message when kube-proxy is running inside container without mounting /lib/modules" moduleName="nf_conntrack"
+I0723 14:11:03.973844       1 cert_rotation.go:137] Starting client certificate rotation controller
+I0723 14:11:04.353216       1 node.go:163] Successfully retrieved node IP: 10.224.0.6
+I0723 14:11:04.353260       1 server_others.go:138] "Detected node IP" address="10.224.0.6"
+I0723 14:11:04.353296       1 server_others.go:578] "Unknown proxy mode, assuming iptables proxy" proxyMode=""
+I0723 14:11:04.353757       1 server_others.go:175] "DetectLocalMode" LocalMode="ClusterCIDR"
+I0723 14:11:04.830214       1 server_others.go:206] "Using iptables Proxier"
+I0723 14:11:04.830250       1 server_others.go:213] "kube-proxy running in dual-stack mode" ipFamily=IPv4
+I0723 14:11:04.830261       1 server_others.go:214] "Creating dualStackProxier for iptables"
+I0723 14:11:04.830275       1 server_others.go:501] "Detect-local-mode set to ClusterCIDR, but no IPv6 cluster CIDR defined, , defaulting to no-op detect-local for IPv6"
+I0723 14:11:04.830351       1 utils.go:400] "Changed sysctl" name="net/ipv4/conf/all/route_localnet" before=0 after=1
+I0723 14:11:04.839407       1 proxier.go:280] "Using iptables mark for masquerade" ipFamily=IPv4 mark="0x00004000"
+I0723 14:11:04.839475       1 proxier.go:324] "Iptables sync params" ipFamily=IPv4 minSyncPeriod="1s" syncPeriod="30s" burstSyncs=2
+I0723 14:11:04.839542       1 proxier.go:334] "Iptables supports --random-fully" ipFamily=IPv4
+I0723 14:11:04.839603       1 proxier.go:280] "Using iptables mark for masquerade" ipFamily=IPv6 mark="0x00004000"
+I0723 14:11:04.839629       1 proxier.go:324] "Iptables sync params" ipFamily=IPv6 minSyncPeriod="1s" syncPeriod="30s" burstSyncs=2
+I0723 14:11:04.839644       1 proxier.go:334] "Iptables supports --random-fully" ipFamily=IPv6
+I0723 14:11:04.848100       1 server.go:658] "Version info" version="v1.23.8"
+I0723 14:11:04.849181       1 proxier_health.go:107] "Starting healthz HTTP server" address="0.0.0.0:10256"
+I0723 14:11:04.858587       1 server.go:807] "GetConntrackMax: using conntrack-min"
+I0723 14:11:04.858685       1 conntrack.go:52] "Setting nf_conntrack_max" nf_conntrack_max=131072
+I0723 14:11:04.858871       1 conntrack.go:100] "Set sysctl" entry="net/netfilter/nf_conntrack_tcp_timeout_close_wait" value=3600
+I0723 14:11:04.894626       1 bounded_frequency_runner.go:192] sync-runner Loop running
+I0723 14:11:04.894660       1 bounded_frequency_runner.go:192] sync-runner Loop running
+I0723 14:11:04.894683       1 config.go:317] "Starting service config controller"
+I0723 14:11:04.894693       1 shared_informer.go:240] Waiting for caches to sync for service config
+I0723 14:11:04.894719       1 config.go:226] "Starting endpoint slice config controller"
+I0723 14:11:04.894724       1 shared_informer.go:240] Waiting for caches to sync for endpoint slice config
+I0723 14:11:04.894919       1 reflector.go:219] Starting reflector *v1.Service (15m0s) from k8s.io/client-go/informers/factory.go:134
+I0723 14:11:04.894935       1 reflector.go:255] Listing and watching *v1.Service from k8s.io/client-go/informers/factory.go:134
+I0723 14:11:04.895384       1 reflector.go:219] Starting reflector *v1.EndpointSlice (15m0s) from k8s.io/client-go/informers/factory.go:134
+I0723 14:11:04.895397       1 reflector.go:255] Listing and watching *v1.EndpointSlice from k8s.io/client-go/informers/factory.go:134
+I0723 14:11:04.932930       1 service.go:304] "Service updated ports" service="default/kubernetes" portCount=1
+I0723 14:11:04.932967       1 service.go:304] "Service updated ports" service="kube-system/kube-dns" portCount=2
+I0723 14:11:04.932994       1 service.go:304] "Service updated ports" service="kube-system/metrics-server" portCount=1
+I0723 14:11:04.994873       1 shared_informer.go:247] Caches are synced for endpoint slice config 
+I0723 14:11:04.994906       1 config.go:233] "Calling handler.OnEndpointSlicesSynced()"
+I0723 14:11:04.994891       1 shared_informer.go:247] Caches are synced for service config 
+I0723 14:11:04.994966       1 config.go:324] "Calling handler.OnServiceSynced()"
+I0723 14:11:04.995075       1 service.go:419] "Adding new service port" portName="default/kubernetes:https" servicePort="10.0.0.1:443/TCP"
+I0723 14:11:04.995096       1 service.go:419] "Adding new service port" portName="kube-system/kube-dns:dns" servicePort="10.0.0.10:53/UDP"
+I0723 14:11:04.995109       1 service.go:419] "Adding new service port" portName="kube-system/kube-dns:dns-tcp" servicePort="10.0.0.10:53/TCP"
+I0723 14:11:04.995125       1 service.go:419] "Adding new service port" portName="kube-system/metrics-server" servicePort="10.0.78.241:443/TCP"
+I0723 14:11:04.995162       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="default/kubernetes:https" endpoints=[52.139.15.189:443]
+I0723 14:11:04.995179       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:11:05.124897       1 proxier.go:790] "SyncProxyRules complete" elapsed="129.869853ms"
+I0723 14:11:05.124920       1 proxier.go:782] "Not syncing iptables until Services and Endpoints have been received from master"
+I0723 14:11:05.124941       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:11:05.155117       1 proxier.go:790] "SyncProxyRules complete" elapsed="30.171961ms"
+I0723 14:11:05.155146       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:11:05.190013       1 proxier.go:790] "SyncProxyRules complete" elapsed="34.860117ms"
+I0723 14:11:40.123425       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443]
+I0723 14:11:40.123456       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:11:40.161755       1 proxier.go:790] "SyncProxyRules complete" elapsed="38.349524ms"
+I0723 14:11:40.161783       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:11:40.525779       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443]
+I0723 14:11:40.525840       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443 10.244.0.5:4443]
+I0723 14:11:40.525862       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:11:40.558826       1 proxier.go:790] "SyncProxyRules complete" elapsed="33.081652ms"
+I0723 14:11:40.558853       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:11:42.524814       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53]
+I0723 14:11:42.524858       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53]
+I0723 14:11:42.524881       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:11:42.559622       1 proxier.go:790] "SyncProxyRules complete" elapsed="34.844676ms"
+I0723 14:11:42.559649       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:11:42.897782       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53]
+I0723 14:11:42.897812       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53]
+I0723 14:11:42.897828       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:11:42.897839       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:11:42.897854       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:11:42.930056       1 proxier.go:790] "SyncProxyRules complete" elapsed="32.293941ms"
+I0723 14:11:42.930107       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:11:48.693063       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:11:48.693122       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:11:48.693159       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:11:48.693179       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:11:48.693424       1 proxier.go:807] "Stale service" protocol="udp" servicePortName="kube-system/kube-dns:dns" clusterIP="10.0.0.10"
+I0723 14:11:48.695477       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:11:48.805233       1 proxier.go:790] "SyncProxyRules complete" elapsed="112.243054ms"
+I0723 14:11:48.805268       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:11:51.608938       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:11:51.608968       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:11:51.608984       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:11:51.608994       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:11:51.609218       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:11:51.718319       1 proxier.go:790] "SyncProxyRules complete" elapsed="109.401507ms"
+I0723 14:11:51.718349       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:12:47.823966       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443 10.244.0.5:4443]
+I0723 14:12:47.824061       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443 10.244.0.5:4443]
+I0723 14:12:47.824799       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:12:47.860211       1 proxier.go:790] "SyncProxyRules complete" elapsed="36.322065ms"
+I0723 14:12:47.860247       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:12:47.860469       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443 10.244.0.5:4443]
+I0723 14:12:47.860555       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443 10.244.0.5:4443]
+I0723 14:12:47.860644       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:12:47.896069       1 proxier.go:790] "SyncProxyRules complete" elapsed="35.793958ms"
+I0723 14:12:47.896096       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:26:47.555556       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443 10.244.0.5:4443]
+I0723 14:26:47.555600       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443 10.244.0.5:4443]
+I0723 14:26:47.555625       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:26:47.599657       1 proxier.go:790] "SyncProxyRules complete" elapsed="44.169493ms"
+I0723 14:26:47.599685       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:26:48.295470       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:26:48.295517       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:26:48.295672       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:26:48.295702       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:26:48.295738       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:26:48.348845       1 proxier.go:790] "SyncProxyRules complete" elapsed="53.410517ms"
+I0723 14:26:48.348872       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:26:49.801678       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443 10.244.0.5:4443]
+I0723 14:26:49.801709       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443 10.244.0.5:4443 10.244.1.5:4443]
+I0723 14:26:49.801728       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:26:49.860681       1 proxier.go:790] "SyncProxyRules complete" elapsed="59.023691ms"
+I0723 14:26:49.860718       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:26:50.212578       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:26:50.212608       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53]
+I0723 14:26:50.212626       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:50.212641       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:50.212662       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:26:50.269871       1 proxier.go:790] "SyncProxyRules complete" elapsed="57.334669ms"
+I0723 14:26:50.269904       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:26:51.270193       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:51.270225       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:51.270244       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:51.270254       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:51.270294       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:26:51.305943       1 proxier.go:790] "SyncProxyRules complete" elapsed="35.799281ms"
+I0723 14:26:51.305971       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:26:59.349376       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:59.349407       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:59.349424       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:59.349445       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:59.349575       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:26:59.386795       1 proxier.go:790] "SyncProxyRules complete" elapsed="37.446405ms"
+I0723 14:26:59.386820       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:26:59.747841       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.0.8:53 10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:59.747866       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.0.8:53 10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:59.747889       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns" endpoints=[10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:59.747906       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/kube-dns:dns-tcp" endpoints=[10.244.1.4:53 10.244.1.7:53]
+I0723 14:26:59.747928       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:26:59.785784       1 proxier.go:790] "SyncProxyRules complete" elapsed="37.971811ms"
+I0723 14:26:59.785810       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:27:00.553523       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443 10.244.0.5:4443 10.244.1.5:4443]
+I0723 14:27:00.553561       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443 10.244.0.5:4443 10.244.1.5:4443]
+I0723 14:27:00.553585       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:27:00.588702       1 proxier.go:790] "SyncProxyRules complete" elapsed="35.211144ms"
+I0723 14:27:00.588730       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:27:01.589605       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.4:4443 10.244.0.5:4443 10.244.1.5:4443]
+I0723 14:27:01.589663       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.5:4443 10.244.1.5:4443]
+I0723 14:27:01.589733       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:27:01.627006       1 proxier.go:790] "SyncProxyRules complete" elapsed="37.481273ms"
+I0723 14:27:01.627032       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:27:57.945437       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.5:4443 10.244.1.5:4443]
+I0723 14:27:57.945466       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.5:4443 10.244.1.5:4443]
+I0723 14:27:57.945488       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:27:57.990807       1 proxier.go:790] "SyncProxyRules complete" elapsed="45.392592ms"
+I0723 14:27:57.990837       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:27:58.174767       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.5:4443 10.244.1.5:4443]
+I0723 14:27:58.174804       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.5:4443 10.244.1.5:4443]
+I0723 14:27:58.174825       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:27:58.228487       1 proxier.go:790] "SyncProxyRules complete" elapsed="53.740101ms"
+I0723 14:27:58.228514       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:27:59.096434       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.5:4443 10.244.1.5:4443]
+I0723 14:27:59.096925       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.5:4443 10.244.1.10:4443 10.244.1.5:4443]
+I0723 14:27:59.097024       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:27:59.139036       1 proxier.go:790] "SyncProxyRules complete" elapsed="42.635656ms"
+I0723 14:27:59.139250       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:28:00.079132       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.5:4443 10.244.1.10:4443 10.244.1.5:4443]
+I0723 14:28:00.079160       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.5:4443 10.244.1.10:4443 10.244.1.5:4443]
+I0723 14:28:00.079183       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:28:00.154169       1 proxier.go:790] "SyncProxyRules complete" elapsed="75.061179ms"
+I0723 14:28:00.154193       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:28:01.154425       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.0.5:4443 10.244.1.10:4443 10.244.1.5:4443]
+I0723 14:28:01.154477       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.1.10:4443 10.244.1.5:4443]
+I0723 14:28:01.154507       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:28:01.190119       1 proxier.go:790] "SyncProxyRules complete" elapsed="35.712166ms"
+I0723 14:28:01.190147       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 14:28:58.574316       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.1.10:4443 10.244.1.5:4443]
+I0723 14:28:58.574353       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="kube-system/metrics-server" endpoints=[10.244.1.10:4443 10.244.1.5:4443]
+I0723 14:28:58.574378       1 proxier.go:823] "Syncing iptables rules"
+I0723 14:28:58.651770       1 proxier.go:790] "SyncProxyRules complete" elapsed="77.465379ms"
+I0723 14:28:58.651804       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 15:08:43.232845       1 service.go:304] "Service updated ports" service="sonobuoy/sonobuoy-aggregator" portCount=1
+I0723 15:08:43.232938       1 service.go:419] "Adding new service port" portName="sonobuoy/sonobuoy-aggregator" servicePort="10.0.226.32:8080/TCP"
+I0723 15:08:43.232964       1 proxier.go:823] "Syncing iptables rules"
+I0723 15:08:43.268629       1 proxier.go:790] "SyncProxyRules complete" elapsed="35.708776ms"
+I0723 15:08:43.268655       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 15:08:43.268838       1 proxier.go:823] "Syncing iptables rules"
+I0723 15:08:43.301677       1 proxier.go:790] "SyncProxyRules complete" elapsed="32.994539ms"
+I0723 15:08:43.301703       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s
+I0723 15:08:46.146682       1 endpointslicecache.go:358] "Setting endpoints for service port name" portName="sonobuoy/sonobuoy-aggregator" endpoints=[10.244.1.11:8080]
+I0723 15:08:46.146718       1 proxier.go:823] "Syncing iptables rules"
+I0723 15:08:46.182453       1 proxier.go:790] "SyncProxyRules complete" elapsed="35.792576ms"
+I0723 15:08:46.182481       1 bounded_frequency_runner.go:296] sync-runner: ran, next possible in 1s, periodic in 1h0m0s

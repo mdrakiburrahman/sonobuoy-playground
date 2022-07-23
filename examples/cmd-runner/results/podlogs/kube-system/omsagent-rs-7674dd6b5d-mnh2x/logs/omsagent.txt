@@ -1,0 +1,71 @@
+customResourceId:/subscriptions/ce859648-30e1-4135-9d0f-8358aebfe789/resourceGroups/sonobuoy-te_group/providers/Microsoft.ContainerService/managedClusters/sonobuoy-test
+customRegion:canadacentral
+Making curl request to oms endpint with domain: opinsights.azure.com
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl request to oms endpoint succeeded.
+****************Start Config Processing********************
+Both stdout & stderr log collection are turned off for namespaces: '*_kube-system_*.log' 
+****************End Config Processing********************
+****************Start Config Processing********************
+****************Start NPM & subnet ip usage integrations Config Processing********************
+config::integrations::Successfully substituted the placeholders for integrations into /etc/opt/microsoft/docker-cimprov/telegraf-rs.conf file for ReplicaSet
+config::integrations::Successfully substituted the integrations placeholders into /etc/opt/microsoft/docker-cimprov/telegraf-rs.conf file for ReplicaSet
+****************Start Prometheus Config Processing********************
+config::No configmap mounted for prometheus custom config, using defaults
+****************End Prometheus Config Processing********************
+****************Start MDM Metrics Config Processing********************
+****************End MDM Metrics Config Processing********************
+****************Start Metric Collection Settings Processing********************
+****************End Metric Collection Settings Processing********************
+MUTE_PROM_SIDECAR = false
+Making wget request to cadvisor endpoint with port 10250
+Using port 10250
+Making curl request to cadvisor endpoint /pods with port 10250 to get the configured container runtime on kubelet
+configured container runtime on kubelet is : containerd
+set caps for ruby process to read container env from proc
+aks-agentpool-16430811-vmss000002
+ * Starting periodic command scheduler cron
+   ...done.
+docker-cimprov 18.0.1.0
+DOCKER_CIMPROV_VERSION=18.0.1.0
+*** set applicable replicaset config ***
+num of fluentd workers:1
+pod inventory worker id: 0
+node inventory worker id: 0
+event inventory worker id: 0
+pod mdm inventory worker id: 0
+other inventory worker id: 0
+fluentd flush interval: 20s
+fluentd kube perf buffer plugin queue length: 20
+fluentd buffer plugin queue length for all other non kube perf plugin: 20
+fluentd out mdm flush thread count: 5
+*** setting up oneagent in legacy auth mode ***
+setting mdsd workspaceid & key for workspace:13bddb97-915e-4f84-bc9c-74b1a9fea2a3
+azure-mdsd 1.17.0-build.master.354
+starting mdsd in main container...
+setting up cronjob for ci agent log rotation
+*** starting fluentd v1 in replicaset
+starting fluent-bit and setting telegraf conf file for replicaset
+nodename: aks-agentpool-16430811-vmss000002
+replacing nodename in telegraf config
+checking for listener on tcp #25226 and waiting for 30 secs if not..
+File Doesnt Exist. Creating file...
+[1mFluent Bit v1.7.8[0m
+* [1m[93mCopyright (C) 2019-2021 The Fluent Bit Authors[0m
+* [1m[93mCopyright (C) 2015-2018 Treasure Data[0m
+* Fluent Bit is a CNCF sub-project under the umbrella of Fluentd
+* https://fluentbit.io
+
+Routing container logs thru v2 route... 
+waitforlisteneronTCPport found listener on port:25226 in 1 secs
+telegraf version: Telegraf 1.22.2 (git: HEAD a60db9ba)
+td-agent-bit 1.7.8
+stopping rsyslog...
+ * Stopping enhanced syslogd rsyslogd
+   ...done.
+getting rsyslog status...
+ * rsyslogd is not running
+2022-07-23T14:26:52.6412210Z: Onboarding success. Sucessfully registered certificate with OMS Homing service.
+Onboarding success

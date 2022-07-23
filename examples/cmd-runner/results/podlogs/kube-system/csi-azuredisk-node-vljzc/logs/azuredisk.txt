@@ -1,0 +1,81 @@
+I0723 14:11:03.487260       1 main.go:128] set up prometheus server on [::]:29605
+I0723 14:11:03.548227       1 azuredisk.go:168] 
+DRIVER INFORMATION:
+-------------------
+Build Date: "2022-06-10T08:51:06Z"
+Compiler: gc
+Driver Name: disk.csi.azure.com
+Driver Version: v1.19.0
+Git Commit: 538a8cec600350de55e42ec14ebbd8733bb4b498
+Go Version: go1.18.1
+Platform: linux/amd64
+Topology Key: topology.disk.csi.azure.com/zone
+
+Streaming logs below:
+I0723 14:11:03.548276       1 azuredisk.go:171] driver userAgent: disk.csi.azure.com/v1.19.0 gc/go1.18.1 (amd64-linux)
+I0723 14:11:03.791050       1 azure_disk_utils.go:159] reading cloud config from secret kube-system/azure-cloud-provider
+I0723 14:11:03.922045       1 azure_disk_utils.go:166] InitializeCloudFromSecret: failed to get cloud config from secret kube-system/azure-cloud-provider: failed to get secret kube-system/azure-cloud-provider: secrets "azure-cloud-provider" is forbidden: User "system:serviceaccount:kube-system:csi-azuredisk-node-sa" cannot get resource "secrets" in API group "" in the namespace "kube-system"
+I0723 14:11:03.922094       1 azure_disk_utils.go:171] could not read cloud config from secret kube-system/azure-cloud-provider
+I0723 14:11:03.922104       1 azure_disk_utils.go:174] AZURE_CREDENTIAL_FILE env var set as /etc/kubernetes/azure.json
+I0723 14:11:03.922135       1 azure_disk_utils.go:189] read cloud config from file: /etc/kubernetes/azure.json successfully
+I0723 14:11:03.937817       1 azure_auth.go:245] Using AzurePublicCloud environment
+I0723 14:11:03.950229       1 azure_auth.go:96] azure: using managed identity extension to retrieve access token
+I0723 14:11:03.950257       1 azure_auth.go:102] azure: using User Assigned MSI ID to retrieve access token
+I0723 14:11:03.950313       1 azure_auth.go:113] azure: User Assigned MSI ID is client ID. Resource ID parsing error: %+vparsing failed for dcd4ae40-01ca-447c-9703-073803b00535. Invalid resource Id format
+I0723 14:11:03.960752       1 azure.go:766] Azure cloudprovider using try backoff: retries=6, exponent=1.500000, duration=5, jitter=1.000000
+I0723 14:11:03.985775       1 azure_interfaceclient.go:72] Azure InterfacesClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:03.985825       1 azure_interfaceclient.go:75] Azure InterfacesClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:03.985882       1 azure_vmsizeclient.go:68] Azure VirtualMachineSizesClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:03.985897       1 azure_vmsizeclient.go:71] Azure VirtualMachineSizesClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:03.995654       1 azure_storageaccountclient.go:70] Azure StorageAccountClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:03.995675       1 azure_storageaccountclient.go:73] Azure StorageAccountClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:03.995918       1 azure_diskclient.go:68] Azure DisksClient using API version: 2021-04-01
+I0723 14:11:04.004248       1 azure_vmclient.go:70] Azure VirtualMachine client (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004270       1 azure_vmclient.go:73] Azure VirtualMachine client (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004282       1 azure_vmssclient.go:70] Azure VirtualMachineScaleSetClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004319       1 azure_vmssclient.go:73] Azure VirtualMachineScaleSetClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004330       1 azure_vmssvmclient.go:74] Azure vmssVM client (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004343       1 azure_vmssvmclient.go:77] Azure vmssVM client (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004357       1 azure_routeclient.go:69] Azure RoutesClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004377       1 azure_routeclient.go:72] Azure RoutesClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004430       1 azure_subnetclient.go:70] Azure SubnetsClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004444       1 azure_subnetclient.go:73] Azure SubnetsClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004455       1 azure_routetableclient.go:69] Azure RouteTablesClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004465       1 azure_routetableclient.go:72] Azure RouteTablesClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004480       1 azure_loadbalancerclient.go:70] Azure LoadBalancersClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004501       1 azure_loadbalancerclient.go:73] Azure LoadBalancersClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004518       1 azure_securitygroupclient.go:70] Azure SecurityGroupsClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004538       1 azure_securitygroupclient.go:73] Azure SecurityGroupsClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004553       1 azure_publicipclient.go:72] Azure PublicIPAddressesClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004560       1 azure_publicipclient.go:75] Azure PublicIPAddressesClient (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004599       1 azure_vmasclient.go:70] Azure AvailabilitySetsClient (read ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.004628       1 azure_vmasclient.go:73] Azure AvailabilitySetsClient  (write ops) using rate limit config: QPS=10, bucket=100
+I0723 14:11:04.013912       1 azure.go:993] attach/detach disk operation rate limit QPS: 6.000000, Bucket: 10
+I0723 14:11:04.013960       1 skus.go:119] NewNodeInfo: Starting to populate node and disk sku information.
+I0723 14:11:04.053283       1 mount_linux.go:208] Detected OS without systemd
+I0723 14:11:04.053309       1 driver.go:81] Enabling controller service capability: CREATE_DELETE_VOLUME
+I0723 14:11:04.053318       1 driver.go:81] Enabling controller service capability: PUBLISH_UNPUBLISH_VOLUME
+I0723 14:11:04.053323       1 driver.go:81] Enabling controller service capability: CREATE_DELETE_SNAPSHOT
+I0723 14:11:04.053330       1 driver.go:81] Enabling controller service capability: CLONE_VOLUME
+I0723 14:11:04.053334       1 driver.go:81] Enabling controller service capability: EXPAND_VOLUME
+I0723 14:11:04.053340       1 driver.go:81] Enabling controller service capability: SINGLE_NODE_MULTI_WRITER
+I0723 14:11:04.053346       1 driver.go:100] Enabling volume access mode: SINGLE_NODE_WRITER
+I0723 14:11:04.053351       1 driver.go:100] Enabling volume access mode: SINGLE_NODE_READER_ONLY
+I0723 14:11:04.053356       1 driver.go:100] Enabling volume access mode: SINGLE_NODE_SINGLE_WRITER
+I0723 14:11:04.053361       1 driver.go:100] Enabling volume access mode: SINGLE_NODE_MULTI_WRITER
+I0723 14:11:04.053367       1 driver.go:91] Enabling node service capability: STAGE_UNSTAGE_VOLUME
+I0723 14:11:04.053373       1 driver.go:91] Enabling node service capability: EXPAND_VOLUME
+I0723 14:11:04.053381       1 driver.go:91] Enabling node service capability: GET_VOLUME_STATS
+I0723 14:11:04.053387       1 driver.go:91] Enabling node service capability: SINGLE_NODE_MULTI_WRITER
+I0723 14:11:04.053531       1 server.go:117] Listening for connections on address: &net.UnixAddr{Name:"//csi/csi.sock", Net:"unix"}
+I0723 14:11:04.835404       1 utils.go:77] GRPC call: /csi.v1.Identity/GetPluginInfo
+I0723 14:11:04.835420       1 utils.go:78] GRPC request: {}
+I0723 14:11:04.836673       1 utils.go:84] GRPC response: {"name":"disk.csi.azure.com","vendor_version":"v1.19.0"}
+I0723 14:11:05.061546       1 utils.go:77] GRPC call: /csi.v1.Identity/GetPluginInfo
+I0723 14:11:05.061753       1 utils.go:78] GRPC request: {}
+I0723 14:11:05.061946       1 utils.go:84] GRPC response: {"name":"disk.csi.azure.com","vendor_version":"v1.19.0"}
+I0723 14:11:05.691217       1 utils.go:77] GRPC call: /csi.v1.Node/NodeGetInfo
+I0723 14:11:05.691236       1 utils.go:78] GRPC request: {}
+I0723 14:11:05.691326       1 nodeserver.go:351] NodeGetInfo, nodeName: aks-agentpool-16430811-vmss000002, failureDomain: canadacentral-3
+I0723 14:11:05.691356       1 nodeserver.go:409] got a matching size in getMaxDataDiskCount, VM Size: STANDARD_DS2_V2, MaxDataDiskCount: 8
+I0723 14:11:05.691367       1 utils.go:84] GRPC response: {"accessible_topology":{"segments":{"topology.disk.csi.azure.com/zone":"canadacentral-3","topology.kubernetes.io/zone":"canadacentral-3"}},"max_volumes_per_node":8,"node_id":"aks-agentpool-16430811-vmss000002"}

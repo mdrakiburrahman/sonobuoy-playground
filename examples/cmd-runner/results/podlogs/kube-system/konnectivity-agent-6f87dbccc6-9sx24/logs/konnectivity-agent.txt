@@ -1,0 +1,361 @@
+I0723 14:26:48.622552       1 options.go:102] AgentCert set to "/certs/client.crt".
+I0723 14:26:48.622608       1 options.go:103] AgentKey set to "/certs/client.key".
+I0723 14:26:48.622614       1 options.go:104] CACert set to "/certs/ca.crt".
+I0723 14:26:48.622619       1 options.go:105] ProxyServerHost set to "sonobuoy-test-dns-a72ecff9.hcp.canadacentral.azmk8s.io".
+I0723 14:26:48.622625       1 options.go:106] ProxyServerPort set to 443.
+I0723 14:26:48.622630       1 options.go:107] ALPNProtos set to [konnectivity].
+I0723 14:26:48.622638       1 options.go:108] HealthServerHost set to 
+I0723 14:26:48.622645       1 options.go:109] HealthServerPort set to 8082.
+I0723 14:26:48.622663       1 options.go:110] AdminServerPort set to 8094.
+I0723 14:26:48.622668       1 options.go:111] EnableProfiling set to false.
+I0723 14:26:48.622673       1 options.go:112] EnableContentionProfiling set to false.
+I0723 14:26:48.622679       1 options.go:113] AgentID set to 6f2dcd24-b922-457d-8902-c66c9a19cf9e.
+I0723 14:26:48.622684       1 options.go:114] SyncInterval set to 1s.
+I0723 14:26:48.622692       1 options.go:115] ProbeInterval set to 1s.
+I0723 14:26:48.622698       1 options.go:116] SyncIntervalCap set to 10s.
+I0723 14:26:48.622706       1 options.go:117] Keepalive time set to 30s.
+I0723 14:26:48.622712       1 options.go:118] ServiceAccountTokenPath set to "".
+I0723 14:26:48.622719       1 options.go:119] AgentIdentifiers set to .
+I0723 14:26:48.622724       1 options.go:120] WarnOnChannelLimit set to false.
+I0723 14:26:48.622744       1 options.go:121] SyncForever set to false.
+I0723 14:26:48.732099       1 client.go:254] "Connect to" server="04c750cb-b3ac-4e79-beda-81d2586f29d7"
+I0723 14:26:48.732127       1 clientset.go:222] "sync added client connecting to proxy server" serverID="04c750cb-b3ac-4e79-beda-81d2586f29d7"
+I0723 14:26:48.732161       1 client.go:356] "Start serving" serverID="04c750cb-b3ac-4e79-beda-81d2586f29d7"
+I0723 14:26:49.926831       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:26:49.926887       1 clientset.go:222] "sync added client connecting to proxy server" serverID="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:26:49.926910       1 client.go:356] "Start serving" serverID="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:26:51.131273       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:26:51.131302       1 clientset.go:222] "sync added client connecting to proxy server" serverID="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:26:51.131333       1 client.go:356] "Start serving" serverID="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:26:52.333009       1 client.go:254] "Connect to" server="47fea0a7-4c09-4638-b943-46e32a4b268b"
+I0723 14:26:52.333039       1 clientset.go:222] "sync added client connecting to proxy server" serverID="47fea0a7-4c09-4638-b943-46e32a4b268b"
+I0723 14:26:52.333060       1 client.go:356] "Start serving" serverID="47fea0a7-4c09-4638-b943-46e32a4b268b"
+E0723 14:27:57.995668       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:53310->10.244.1.5:4443: use of closed network connection" connectionID=2
+I0723 14:27:57.995735       1 client.go:492] "Exiting remoteToProxy" connectionID=2
+I0723 14:27:57.995769       1 client.go:534] "Exiting proxyToRemote" connectionID=2
+E0723 14:27:58.002604       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:53298->10.244.1.5:4443: use of closed network connection" connectionID=1
+I0723 14:27:58.002839       1 client.go:492] "Exiting remoteToProxy" connectionID=1
+I0723 14:27:58.002942       1 client.go:534] "Exiting proxyToRemote" connectionID=1
+E0723 14:27:58.008413       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:53308->10.244.1.5:4443: use of closed network connection" connectionID=2
+I0723 14:27:58.008752       1 client.go:492] "Exiting remoteToProxy" connectionID=2
+I0723 14:27:58.008759       1 client.go:534] "Exiting proxyToRemote" connectionID=2
+E0723 14:28:58.618579       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:59092->10.244.1.10:4443: use of closed network connection" connectionID=3
+E0723 14:28:58.618720       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:59092->10.244.1.10:4443: use of closed network connection" connectionID=3
+I0723 14:28:58.618942       1 client.go:534] "Exiting proxyToRemote" connectionID=3
+I0723 14:28:58.618985       1 client.go:492] "Exiting remoteToProxy" connectionID=3
+E0723 14:29:21.089067       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:41900->10.224.0.6:20257: use of closed network connection" connectionID=1
+I0723 14:29:21.089146       1 client.go:492] "Exiting remoteToProxy" connectionID=1
+I0723 14:29:21.090260       1 client.go:534] "Exiting proxyToRemote" connectionID=1
+E0723 14:31:19.477199       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:54526->10.244.1.5:4443: use of closed network connection" connectionID=5
+I0723 14:31:19.477519       1 client.go:492] "Exiting remoteToProxy" connectionID=5
+E0723 14:31:19.477407       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:54526->10.244.1.5:4443: use of closed network connection" connectionID=5
+I0723 14:31:19.477614       1 client.go:534] "Exiting proxyToRemote" connectionID=5
+E0723 14:32:19.464378       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:59462->10.244.1.10:4443: use of closed network connection" connectionID=2
+I0723 14:32:19.464417       1 client.go:492] "Exiting remoteToProxy" connectionID=2
+E0723 14:32:19.464443       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:59462->10.244.1.10:4443: use of closed network connection" connectionID=2
+I0723 14:32:19.464466       1 client.go:534] "Exiting proxyToRemote" connectionID=2
+I0723 14:32:35.561320       1 client.go:534] "Exiting proxyToRemote" connectionID=5
+E0723 14:32:35.561244       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:60464->10.244.1.7:9153: use of closed network connection" connectionID=5
+I0723 14:32:35.561754       1 client.go:492] "Exiting remoteToProxy" connectionID=5
+E0723 14:33:19.250691       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:46328->10.224.0.6:10256: use of closed network connection" connectionID=7
+I0723 14:33:19.250751       1 client.go:492] "Exiting remoteToProxy" connectionID=7
+I0723 14:33:19.250794       1 client.go:534] "Exiting proxyToRemote" connectionID=7
+E0723 14:33:19.479039       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:54324->10.244.1.5:4443: use of closed network connection" connectionID=5
+I0723 14:33:19.479524       1 client.go:492] "Exiting remoteToProxy" connectionID=5
+E0723 14:33:19.479354       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:54324->10.244.1.5:4443: use of closed network connection" connectionID=5
+I0723 14:33:19.479726       1 client.go:534] "Exiting proxyToRemote" connectionID=5
+E0723 14:34:19.497853       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:59574->10.244.1.10:4443: use of closed network connection" connectionID=4
+I0723 14:34:19.497958       1 client.go:534] "Exiting proxyToRemote" connectionID=4
+E0723 14:34:19.497859       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:59574->10.244.1.10:4443: use of closed network connection" connectionID=4
+I0723 14:34:19.498039       1 client.go:492] "Exiting remoteToProxy" connectionID=4
+E0723 14:34:21.965050       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:37092->10.244.1.4:9153: use of closed network connection" connectionID=9
+I0723 14:34:21.965125       1 client.go:492] "Exiting remoteToProxy" connectionID=9
+I0723 14:34:21.965170       1 client.go:534] "Exiting proxyToRemote" connectionID=9
+E0723 14:35:19.512737       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:55778->10.244.1.5:4443: use of closed network connection" connectionID=4
+I0723 14:35:19.512990       1 client.go:492] "Exiting remoteToProxy" connectionID=4
+E0723 14:35:19.512757       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:55778->10.244.1.5:4443: use of closed network connection" connectionID=4
+I0723 14:35:19.513189       1 client.go:534] "Exiting proxyToRemote" connectionID=4
+E0723 14:35:33.437773       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:59468->10.244.1.10:4443: use of closed network connection" connectionID=3
+I0723 14:35:33.437828       1 client.go:492] "Exiting remoteToProxy" connectionID=3
+E0723 14:35:33.437884       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:59468->10.244.1.10:4443: use of closed network connection" connectionID=3
+I0723 14:35:33.437906       1 client.go:534] "Exiting proxyToRemote" connectionID=3
+E0723 14:36:49.521617       1 client.go:372] "could not read stream" err="rpc error: code = Unavailable desc = closing transport due to: connection error: desc = \"error reading from server: EOF\", received prior goaway: code: ENHANCE_YOUR_CALM, debug data: \"too_many_pings\""
+I0723 14:36:49.521658       1 client.go:353] "cleanup all of conn contexts when client exits" agentID="6f2dcd24-b922-457d-8902-c66c9a19cf9e"
+I0723 14:36:50.433994       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:36:50.434039       1 clientset.go:222] "sync added client connecting to proxy server" serverID="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:36:50.434098       1 client.go:356] "Start serving" serverID="6987efdd-e001-4f49-83fd-45dac80ea226"
+E0723 14:37:19.573964       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:35136->10.244.1.10:4443: use of closed network connection" connectionID=6
+I0723 14:37:19.574003       1 client.go:492] "Exiting remoteToProxy" connectionID=6
+E0723 14:37:19.574418       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:35136->10.244.1.10:4443: use of closed network connection" connectionID=6
+I0723 14:37:19.574603       1 client.go:534] "Exiting proxyToRemote" connectionID=6
+E0723 14:37:19.595514       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:58252->10.244.1.5:4443: use of closed network connection" connectionID=7
+I0723 14:37:19.595550       1 client.go:492] "Exiting remoteToProxy" connectionID=7
+E0723 14:37:19.595581       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:58252->10.244.1.5:4443: use of closed network connection" connectionID=7
+I0723 14:37:19.595605       1 client.go:534] "Exiting proxyToRemote" connectionID=7
+E0723 14:39:20.444319       1 client.go:372] "could not read stream" err="rpc error: code = Unavailable desc = closing transport due to: connection error: desc = \"error reading from server: EOF\", received prior goaway: code: ENHANCE_YOUR_CALM, debug data: \"too_many_pings\""
+I0723 14:39:20.444438       1 client.go:353] "cleanup all of conn contexts when client exits" agentID="6f2dcd24-b922-457d-8902-c66c9a19cf9e"
+I0723 14:39:20.631426       1 client.go:254] "Connect to" server="04c750cb-b3ac-4e79-beda-81d2586f29d7"
+E0723 14:39:21.089505       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:48206->10.224.0.6:20257: use of closed network connection" connectionID=9
+I0723 14:39:21.089555       1 client.go:492] "Exiting remoteToProxy" connectionID=9
+I0723 14:39:21.089590       1 client.go:534] "Exiting proxyToRemote" connectionID=9
+I0723 14:39:21.728368       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:39:22.928359       1 client.go:254] "Connect to" server="47fea0a7-4c09-4638-b943-46e32a4b268b"
+I0723 14:39:24.030552       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:39:24.030647       1 clientset.go:222] "sync added client connecting to proxy server" serverID="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:39:24.030758       1 client.go:356] "Start serving" serverID="6987efdd-e001-4f49-83fd-45dac80ea226"
+E0723 14:40:16.637891       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:35762->10.244.1.10:4443: use of closed network connection" connectionID=8
+E0723 14:40:16.637900       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:35762->10.244.1.10:4443: use of closed network connection" connectionID=8
+I0723 14:40:16.638200       1 client.go:534] "Exiting proxyToRemote" connectionID=8
+I0723 14:40:16.638273       1 client.go:492] "Exiting remoteToProxy" connectionID=8
+E0723 14:40:33.846224       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:34366->10.244.1.10:4443: use of closed network connection" connectionID=10
+I0723 14:40:33.846281       1 client.go:492] "Exiting remoteToProxy" connectionID=10
+E0723 14:40:33.846352       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:34366->10.244.1.10:4443: use of closed network connection" connectionID=10
+I0723 14:40:33.846375       1 client.go:534] "Exiting proxyToRemote" connectionID=10
+E0723 14:41:19.631929       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:60538->10.244.1.5:4443: use of closed network connection" connectionID=1
+I0723 14:41:19.632068       1 client.go:534] "Exiting proxyToRemote" connectionID=1
+E0723 14:41:19.631929       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:60538->10.244.1.5:4443: use of closed network connection" connectionID=1
+I0723 14:41:19.632270       1 client.go:492] "Exiting remoteToProxy" connectionID=1
+E0723 14:42:19.664607       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:38248->10.244.1.10:4443: use of closed network connection" connectionID=2
+I0723 14:42:19.664647       1 client.go:492] "Exiting remoteToProxy" connectionID=2
+E0723 14:42:19.664718       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:38248->10.244.1.10:4443: use of closed network connection" connectionID=2
+I0723 14:42:19.664841       1 client.go:534] "Exiting proxyToRemote" connectionID=2
+E0723 14:43:19.721110       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:33134->10.244.1.5:4443: use of closed network connection" connectionID=10
+I0723 14:43:19.721158       1 client.go:492] "Exiting remoteToProxy" connectionID=10
+I0723 14:43:19.721186       1 client.go:534] "Exiting proxyToRemote" connectionID=10
+E0723 14:44:21.100281       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:51318->10.224.0.6:20257: use of closed network connection" connectionID=3
+I0723 14:44:21.100577       1 client.go:492] "Exiting remoteToProxy" connectionID=3
+I0723 14:44:21.100461       1 client.go:534] "Exiting proxyToRemote" connectionID=3
+E0723 14:44:34.367214       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:40586->10.244.1.10:4443: use of closed network connection" connectionID=12
+I0723 14:44:34.367417       1 client.go:492] "Exiting remoteToProxy" connectionID=12
+I0723 14:44:34.367521       1 client.go:534] "Exiting proxyToRemote" connectionID=12
+E0723 14:45:19.749160       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:35004->10.244.1.5:4443: use of closed network connection" connectionID=4
+I0723 14:45:19.749196       1 client.go:492] "Exiting remoteToProxy" connectionID=4
+E0723 14:45:19.749221       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:35004->10.244.1.5:4443: use of closed network connection" connectionID=4
+I0723 14:45:19.749228       1 client.go:534] "Exiting proxyToRemote" connectionID=4
+E0723 14:45:19.757305       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:39508->10.244.1.10:4443: use of closed network connection" connectionID=11
+E0723 14:45:19.757314       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:39508->10.244.1.10:4443: use of closed network connection" connectionID=11
+I0723 14:45:19.757338       1 client.go:492] "Exiting remoteToProxy" connectionID=11
+I0723 14:45:19.757349       1 client.go:534] "Exiting proxyToRemote" connectionID=11
+E0723 14:45:34.298987       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:37480->10.244.1.10:4443: use of closed network connection" connectionID=11
+I0723 14:45:34.299037       1 client.go:492] "Exiting remoteToProxy" connectionID=11
+E0723 14:45:34.299069       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:37480->10.244.1.10:4443: use of closed network connection" connectionID=11
+I0723 14:45:34.299094       1 client.go:534] "Exiting proxyToRemote" connectionID=11
+I0723 14:45:35.929216       1 client.go:507] "connection EOF" connectionID=14
+I0723 14:45:35.929307       1 client.go:492] "Exiting remoteToProxy" connectionID=14
+I0723 14:45:35.929326       1 client.go:534] "Exiting proxyToRemote" connectionID=14
+E0723 14:46:19.774786       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:40740->10.244.1.10:4443: use of closed network connection" connectionID=5
+I0723 14:46:19.774825       1 client.go:492] "Exiting remoteToProxy" connectionID=5
+E0723 14:46:19.774859       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:40740->10.244.1.10:4443: use of closed network connection" connectionID=5
+I0723 14:46:19.774866       1 client.go:534] "Exiting proxyToRemote" connectionID=5
+E0723 14:47:35.558007       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:41544->10.244.1.7:9153: use of closed network connection" connectionID=15
+I0723 14:47:35.558227       1 client.go:492] "Exiting remoteToProxy" connectionID=15
+I0723 14:47:35.558339       1 client.go:534] "Exiting proxyToRemote" connectionID=15
+E0723 14:47:49.782762       1 client.go:372] "could not read stream" err="rpc error: code = Unavailable desc = closing transport due to: connection error: desc = \"error reading from server: EOF\", received prior goaway: code: ENHANCE_YOUR_CALM, debug data: \"too_many_pings\""
+I0723 14:47:49.782791       1 client.go:353] "cleanup all of conn contexts when client exits" agentID="6f2dcd24-b922-457d-8902-c66c9a19cf9e"
+I0723 14:47:50.431827       1 client.go:254] "Connect to" server="04c750cb-b3ac-4e79-beda-81d2586f29d7"
+I0723 14:47:51.532144       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:47:51.532170       1 clientset.go:222] "sync added client connecting to proxy server" serverID="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:47:51.532194       1 client.go:356] "Start serving" serverID="6987efdd-e001-4f49-83fd-45dac80ea226"
+E0723 14:48:19.767966       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:36240->10.244.1.5:4443: use of closed network connection" connectionID=7
+E0723 14:48:19.767975       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:36240->10.244.1.5:4443: use of closed network connection" connectionID=7
+I0723 14:48:19.768006       1 client.go:534] "Exiting proxyToRemote" connectionID=7
+I0723 14:48:19.768008       1 client.go:492] "Exiting remoteToProxy" connectionID=7
+E0723 14:48:19.805411       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:40742->10.244.1.10:4443: use of closed network connection" connectionID=12
+I0723 14:48:19.805560       1 client.go:534] "Exiting proxyToRemote" connectionID=12
+E0723 14:48:19.805422       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:40742->10.244.1.10:4443: use of closed network connection" connectionID=12
+I0723 14:48:19.805965       1 client.go:492] "Exiting remoteToProxy" connectionID=12
+E0723 14:48:34.790589       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:54768->10.224.0.6:10249: use of closed network connection" connectionID=16
+I0723 14:48:34.790678       1 client.go:492] "Exiting remoteToProxy" connectionID=16
+I0723 14:48:34.790728       1 client.go:534] "Exiting proxyToRemote" connectionID=16
+E0723 14:49:19.838473       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:37486->10.244.1.5:4443: use of closed network connection" connectionID=13
+I0723 14:49:19.838869       1 client.go:492] "Exiting remoteToProxy" connectionID=13
+E0723 14:49:19.838473       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:37486->10.244.1.5:4443: use of closed network connection" connectionID=13
+I0723 14:49:19.838964       1 client.go:534] "Exiting proxyToRemote" connectionID=13
+E0723 14:49:21.082995       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:54414->10.224.0.6:20257: use of closed network connection" connectionID=14
+I0723 14:49:21.083298       1 client.go:492] "Exiting remoteToProxy" connectionID=14
+I0723 14:49:21.083137       1 client.go:534] "Exiting proxyToRemote" connectionID=14
+E0723 14:49:21.970612       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:46392->10.244.1.4:9153: use of closed network connection" connectionID=9
+I0723 14:49:21.970663       1 client.go:492] "Exiting remoteToProxy" connectionID=9
+I0723 14:49:21.970698       1 client.go:534] "Exiting proxyToRemote" connectionID=9
+E0723 14:49:34.644045       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:35616->10.244.1.5:4443: use of closed network connection" connectionID=13
+I0723 14:49:34.644104       1 client.go:492] "Exiting remoteToProxy" connectionID=13
+E0723 14:49:34.644155       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:35616->10.244.1.5:4443: use of closed network connection" connectionID=13
+I0723 14:49:34.644173       1 client.go:534] "Exiting proxyToRemote" connectionID=13
+E0723 14:50:19.822115       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:42600->10.244.1.10:4443: use of closed network connection" connectionID=8
+E0723 14:50:19.822244       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:42600->10.244.1.10:4443: use of closed network connection" connectionID=8
+I0723 14:50:19.822466       1 client.go:492] "Exiting remoteToProxy" connectionID=8
+I0723 14:50:19.822338       1 client.go:534] "Exiting proxyToRemote" connectionID=8
+E0723 14:51:04.653122       1 client.go:372] "could not read stream" err="rpc error: code = Unavailable desc = closing transport due to: connection error: desc = \"error reading from server: EOF\", received prior goaway: code: ENHANCE_YOUR_CALM, debug data: \"too_many_pings\""
+I0723 14:51:04.653166       1 client.go:353] "cleanup all of conn contexts when client exits" agentID="6f2dcd24-b922-457d-8902-c66c9a19cf9e"
+I0723 14:51:05.731720       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:51:06.928221       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:51:08.125080       1 client.go:254] "Connect to" server="47fea0a7-4c09-4638-b943-46e32a4b268b"
+I0723 14:51:09.425544       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:51:10.632077       1 client.go:254] "Connect to" server="04c750cb-b3ac-4e79-beda-81d2586f29d7"
+I0723 14:51:10.632106       1 clientset.go:222] "sync added client connecting to proxy server" serverID="04c750cb-b3ac-4e79-beda-81d2586f29d7"
+I0723 14:51:10.632323       1 client.go:356] "Start serving" serverID="04c750cb-b3ac-4e79-beda-81d2586f29d7"
+E0723 14:51:19.675133       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:38510->10.244.1.5:4443: use of closed network connection" connectionID=1
+E0723 14:51:19.675146       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:38510->10.244.1.5:4443: use of closed network connection" connectionID=1
+I0723 14:51:19.675229       1 client.go:534] "Exiting proxyToRemote" connectionID=1
+I0723 14:51:19.675553       1 client.go:492] "Exiting remoteToProxy" connectionID=1
+E0723 14:51:19.841605       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:43648->10.244.1.10:4443: use of closed network connection" connectionID=10
+E0723 14:51:19.841731       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:43648->10.244.1.10:4443: use of closed network connection" connectionID=10
+I0723 14:51:19.842106       1 client.go:492] "Exiting remoteToProxy" connectionID=10
+I0723 14:51:19.842116       1 client.go:534] "Exiting proxyToRemote" connectionID=10
+E0723 14:51:22.422199       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:43774->10.244.1.10:4443: use of closed network connection" connectionID=15
+I0723 14:51:22.422443       1 client.go:492] "Exiting remoteToProxy" connectionID=15
+E0723 14:51:22.422437       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:43774->10.244.1.10:4443: use of closed network connection" connectionID=15
+I0723 14:51:22.422660       1 client.go:534] "Exiting proxyToRemote" connectionID=15
+E0723 14:52:19.873699       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:43840->10.244.1.10:4443: use of closed network connection" connectionID=2
+I0723 14:52:19.873926       1 client.go:492] "Exiting remoteToProxy" connectionID=2
+E0723 14:52:19.873865       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:43840->10.244.1.10:4443: use of closed network connection" connectionID=2
+I0723 14:52:19.874352       1 client.go:534] "Exiting proxyToRemote" connectionID=2
+I0723 14:52:24.128420       1 client.go:507] "connection EOF" connectionID=12
+I0723 14:52:24.128524       1 client.go:492] "Exiting remoteToProxy" connectionID=12
+I0723 14:52:24.128540       1 client.go:534] "Exiting proxyToRemote" connectionID=12
+E0723 14:53:40.641556       1 client.go:372] "could not read stream" err="rpc error: code = Unavailable desc = closing transport due to: connection error: desc = \"error reading from server: EOF\", received prior goaway: code: ENHANCE_YOUR_CALM, debug data: \"too_many_pings\""
+I0723 14:53:40.641627       1 client.go:353] "cleanup all of conn contexts when client exits" agentID="6f2dcd24-b922-457d-8902-c66c9a19cf9e"
+I0723 14:53:41.132658       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:53:42.233653       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:53:43.428949       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:53:44.537965       1 client.go:254] "Connect to" server="47fea0a7-4c09-4638-b943-46e32a4b268b"
+I0723 14:53:45.732091       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:53:46.824841       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:53:47.928229       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:53:49.028891       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:53:50.221400       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:53:51.329992       1 client.go:254] "Connect to" server="47fea0a7-4c09-4638-b943-46e32a4b268b"
+I0723 14:53:52.527804       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:53:53.632638       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+E0723 14:53:54.164753       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:59124->10.224.0.6:10256: use of closed network connection" connectionID=13
+I0723 14:53:54.165340       1 client.go:492] "Exiting remoteToProxy" connectionID=13
+I0723 14:53:54.165397       1 client.go:534] "Exiting proxyToRemote" connectionID=13
+I0723 14:53:54.730562       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:53:55.828159       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:53:56.927972       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:53:58.123852       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:53:59.231849       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:54:00.328035       1 client.go:254] "Connect to" server="47fea0a7-4c09-4638-b943-46e32a4b268b"
+I0723 14:54:01.428951       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:54:02.531124       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:54:03.636960       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:54:04.729005       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:54:05.832676       1 client.go:254] "Connect to" server="47fea0a7-4c09-4638-b943-46e32a4b268b"
+I0723 14:54:07.022376       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:54:08.227477       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:54:09.443256       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:54:10.530647       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:54:11.629067       1 client.go:254] "Connect to" server="47fea0a7-4c09-4638-b943-46e32a4b268b"
+I0723 14:54:12.735673       1 client.go:254] "Connect to" server="6987efdd-e001-4f49-83fd-45dac80ea226"
+I0723 14:54:13.831895       1 client.go:254] "Connect to" server="47fea0a7-4c09-4638-b943-46e32a4b268b"
+I0723 14:54:14.928198       1 client.go:254] "Connect to" server="ed0bd2a4-3333-4d3d-81d4-9780cd29e72f"
+I0723 14:54:16.123841       1 client.go:254] "Connect to" server="04c750cb-b3ac-4e79-beda-81d2586f29d7"
+I0723 14:54:16.123885       1 clientset.go:222] "sync added client connecting to proxy server" serverID="04c750cb-b3ac-4e79-beda-81d2586f29d7"
+I0723 14:54:16.123941       1 client.go:356] "Start serving" serverID="04c750cb-b3ac-4e79-beda-81d2586f29d7"
+E0723 14:54:19.912586       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:39970->10.244.1.5:4443: use of closed network connection" connectionID=3
+I0723 14:54:19.913123       1 client.go:492] "Exiting remoteToProxy" connectionID=3
+E0723 14:54:19.912586       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:39970->10.244.1.5:4443: use of closed network connection" connectionID=3
+I0723 14:54:19.913158       1 client.go:534] "Exiting proxyToRemote" connectionID=3
+E0723 14:54:21.971432       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:49502->10.244.1.4:9153: use of closed network connection" connectionID=14
+I0723 14:54:21.971512       1 client.go:492] "Exiting remoteToProxy" connectionID=14
+I0723 14:54:21.971546       1 client.go:534] "Exiting proxyToRemote" connectionID=14
+E0723 14:54:35.115400       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:41752->10.244.1.5:4443: use of closed network connection" connectionID=2
+I0723 14:54:35.115702       1 client.go:492] "Exiting remoteToProxy" connectionID=2
+E0723 14:54:35.115408       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:41752->10.244.1.5:4443: use of closed network connection" connectionID=2
+I0723 14:54:35.115797       1 client.go:534] "Exiting proxyToRemote" connectionID=2
+E0723 14:55:19.925254       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:45086->10.244.1.10:4443: use of closed network connection" connectionID=11
+E0723 14:55:19.925289       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:45086->10.244.1.10:4443: use of closed network connection" connectionID=11
+I0723 14:55:19.925783       1 client.go:534] "Exiting proxyToRemote" connectionID=11
+I0723 14:55:19.925748       1 client.go:492] "Exiting remoteToProxy" connectionID=11
+E0723 14:55:19.936153       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:45090->10.244.1.10:4443: use of closed network connection" connectionID=16
+I0723 14:55:19.936190       1 client.go:492] "Exiting remoteToProxy" connectionID=16
+E0723 14:55:19.936453       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:45090->10.244.1.10:4443: use of closed network connection" connectionID=16
+I0723 14:55:19.936590       1 client.go:534] "Exiting proxyToRemote" connectionID=16
+E0723 14:55:19.941759       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:46344->10.244.1.10:4443: use of closed network connection" connectionID=4
+I0723 14:55:19.941793       1 client.go:492] "Exiting remoteToProxy" connectionID=4
+E0723 14:55:19.941864       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:46344->10.244.1.10:4443: use of closed network connection" connectionID=4
+I0723 14:55:19.941872       1 client.go:534] "Exiting proxyToRemote" connectionID=4
+E0723 14:57:20.008248       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:47628->10.244.1.10:4443: use of closed network connection" connectionID=5
+E0723 14:57:20.008321       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:47628->10.244.1.10:4443: use of closed network connection" connectionID=5
+I0723 14:57:20.008653       1 client.go:492] "Exiting remoteToProxy" connectionID=5
+I0723 14:57:20.008522       1 client.go:534] "Exiting proxyToRemote" connectionID=5
+E0723 14:57:35.547430       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:47824->10.244.1.7:9153: use of closed network connection" connectionID=6
+I0723 14:57:35.547876       1 client.go:492] "Exiting remoteToProxy" connectionID=6
+I0723 14:57:35.547794       1 client.go:534] "Exiting proxyToRemote" connectionID=6
+E0723 14:58:20.018460       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:47626->10.244.1.10:4443: use of closed network connection" connectionID=17
+E0723 14:58:20.018476       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:47626->10.244.1.10:4443: use of closed network connection" connectionID=17
+I0723 14:58:20.018522       1 client.go:534] "Exiting proxyToRemote" connectionID=17
+I0723 14:58:20.018533       1 client.go:492] "Exiting remoteToProxy" connectionID=17
+E0723 14:58:20.037444       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:43138->10.244.1.5:4443: use of closed network connection" connectionID=7
+I0723 14:58:20.037501       1 client.go:492] "Exiting remoteToProxy" connectionID=7
+E0723 14:58:20.037534       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:43138->10.244.1.5:4443: use of closed network connection" connectionID=7
+I0723 14:58:20.037541       1 client.go:534] "Exiting proxyToRemote" connectionID=7
+E0723 14:59:21.075132       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:60698->10.224.0.6:20257: use of closed network connection" connectionID=9
+I0723 14:59:21.075451       1 client.go:492] "Exiting remoteToProxy" connectionID=9
+I0723 14:59:21.075189       1 client.go:534] "Exiting proxyToRemote" connectionID=9
+E0723 15:00:20.057895       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:49502->10.244.1.10:4443: use of closed network connection" connectionID=15
+I0723 15:00:20.058539       1 client.go:492] "Exiting remoteToProxy" connectionID=15
+E0723 15:00:20.058193       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:49502->10.244.1.10:4443: use of closed network connection" connectionID=15
+I0723 15:00:20.058704       1 client.go:534] "Exiting proxyToRemote" connectionID=15
+E0723 15:00:20.071277       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:48886->10.244.1.10:4443: use of closed network connection" connectionID=8
+I0723 15:00:20.071564       1 client.go:492] "Exiting remoteToProxy" connectionID=8
+E0723 15:00:20.071658       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:48886->10.244.1.10:4443: use of closed network connection" connectionID=8
+I0723 15:00:20.071712       1 client.go:534] "Exiting proxyToRemote" connectionID=8
+E0723 15:00:35.528279       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:41750->10.244.1.5:4443: use of closed network connection" connectionID=1
+I0723 15:00:35.528343       1 client.go:492] "Exiting remoteToProxy" connectionID=1
+E0723 15:00:35.528845       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:41750->10.244.1.5:4443: use of closed network connection" connectionID=1
+I0723 15:00:35.529074       1 client.go:534] "Exiting proxyToRemote" connectionID=1
+E0723 15:00:35.529368       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:47010->10.244.1.10:4443: use of closed network connection" connectionID=3
+E0723 15:00:35.529570       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:47010->10.244.1.10:4443: use of closed network connection" connectionID=3
+I0723 15:00:35.529770       1 client.go:534] "Exiting proxyToRemote" connectionID=3
+I0723 15:00:35.529795       1 client.go:492] "Exiting remoteToProxy" connectionID=3
+E0723 15:01:20.080464       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:44900->10.244.1.5:4443: use of closed network connection" connectionID=10
+I0723 15:01:20.080742       1 client.go:534] "Exiting proxyToRemote" connectionID=10
+E0723 15:01:20.080501       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:44900->10.244.1.5:4443: use of closed network connection" connectionID=10
+I0723 15:01:20.080926       1 client.go:492] "Exiting remoteToProxy" connectionID=10
+E0723 15:02:20.116798       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:44828->10.244.1.5:4443: use of closed network connection" connectionID=16
+I0723 15:02:20.116864       1 client.go:492] "Exiting remoteToProxy" connectionID=16
+I0723 15:02:20.116965       1 client.go:534] "Exiting proxyToRemote" connectionID=16
+E0723 15:02:35.557132       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:50936->10.244.1.7:9153: use of closed network connection" connectionID=11
+I0723 15:02:35.557479       1 client.go:492] "Exiting remoteToProxy" connectionID=11
+I0723 15:02:35.557569       1 client.go:534] "Exiting proxyToRemote" connectionID=11
+E0723 15:04:20.187879       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:51364->10.244.1.10:4443: use of closed network connection" connectionID=17
+E0723 15:04:20.188214       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:51364->10.244.1.10:4443: use of closed network connection" connectionID=17
+I0723 15:04:20.188685       1 client.go:492] "Exiting remoteToProxy" connectionID=17
+I0723 15:04:20.188473       1 client.go:534] "Exiting proxyToRemote" connectionID=17
+E0723 15:04:21.979131       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:55770->10.244.1.4:9153: use of closed network connection" connectionID=13
+I0723 15:04:21.979571       1 client.go:492] "Exiting remoteToProxy" connectionID=13
+I0723 15:04:21.979634       1 client.go:534] "Exiting proxyToRemote" connectionID=13
+E0723 15:05:20.216205       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:47482->10.244.1.5:4443: use of closed network connection" connectionID=18
+I0723 15:05:20.216579       1 client.go:492] "Exiting remoteToProxy" connectionID=18
+I0723 15:05:20.216515       1 client.go:534] "Exiting proxyToRemote" connectionID=18
+E0723 15:05:20.217655       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:46864->10.244.1.5:4443: use of closed network connection" connectionID=12
+I0723 15:05:20.217685       1 client.go:492] "Exiting remoteToProxy" connectionID=12
+E0723 15:05:20.217710       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:46864->10.244.1.5:4443: use of closed network connection" connectionID=12
+I0723 15:05:20.217716       1 client.go:534] "Exiting proxyToRemote" connectionID=12
+E0723 15:05:20.228148       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:47484->10.244.1.5:4443: use of closed network connection" connectionID=18
+I0723 15:05:20.228236       1 client.go:492] "Exiting remoteToProxy" connectionID=18
+E0723 15:05:20.228323       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:47484->10.244.1.5:4443: use of closed network connection" connectionID=18
+I0723 15:05:20.228382       1 client.go:534] "Exiting proxyToRemote" connectionID=18
+E0723 15:05:35.892081       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:44848->10.244.1.5:4443: use of closed network connection" connectionID=4
+I0723 15:05:35.892119       1 client.go:492] "Exiting remoteToProxy" connectionID=4
+E0723 15:05:35.892611       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:44848->10.244.1.5:4443: use of closed network connection" connectionID=4
+I0723 15:05:35.892642       1 client.go:534] "Exiting proxyToRemote" connectionID=4
+E0723 15:06:11.070625       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:48020->10.244.1.5:4443: use of closed network connection" connectionID=19
+I0723 15:06:11.070665       1 client.go:492] "Exiting remoteToProxy" connectionID=19
+E0723 15:06:11.070839       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:48020->10.244.1.5:4443: use of closed network connection" connectionID=19
+I0723 15:06:11.071048       1 client.go:534] "Exiting proxyToRemote" connectionID=19
+E0723 15:07:20.278296       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:48102->10.244.1.5:4443: use of closed network connection" connectionID=14
+I0723 15:07:20.278353       1 client.go:492] "Exiting remoteToProxy" connectionID=14
+E0723 15:07:20.278402       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:48102->10.244.1.5:4443: use of closed network connection" connectionID=14
+I0723 15:07:20.278420       1 client.go:534] "Exiting proxyToRemote" connectionID=14
+E0723 15:07:35.557627       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:54030->10.244.1.7:9153: use of closed network connection" connectionID=5
+I0723 15:07:35.557860       1 client.go:492] "Exiting remoteToProxy" connectionID=5
+I0723 15:07:35.558217       1 client.go:534] "Exiting proxyToRemote" connectionID=5
+E0723 15:08:20.312097       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:49346->10.244.1.5:4443: use of closed network connection" connectionID=20
+I0723 15:08:20.312141       1 client.go:492] "Exiting remoteToProxy" connectionID=20
+E0723 15:08:20.312181       1 client.go:551] "conn write failure" err="write tcp 10.244.1.6:49346->10.244.1.5:4443: use of closed network connection" connectionID=20
+I0723 15:08:20.312191       1 client.go:534] "Exiting proxyToRemote" connectionID=20
+E0723 15:08:34.771827       1 client.go:514] "connection read failure" err="read tcp 10.244.1.6:39026->10.224.0.6:10249: use of closed network connection" connectionID=15
+I0723 15:08:34.771876       1 client.go:492] "Exiting remoteToProxy" connectionID=15
+I0723 15:08:34.771897       1 client.go:534] "Exiting proxyToRemote" connectionID=15

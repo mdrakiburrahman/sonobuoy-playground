@@ -1,0 +1,17 @@
+I0723 14:26:52.297496       1 serving.go:341] Generated self-signed cert (/tmp/apiserver.crt, /tmp/apiserver.key)
+I0723 14:26:53.785941       1 requestheader_controller.go:169] Starting RequestHeaderAuthRequestController
+I0723 14:26:53.785960       1 shared_informer.go:240] Waiting for caches to sync for RequestHeaderAuthRequestController
+I0723 14:26:53.786006       1 configmap_cafile_content.go:202] Starting client-ca::kube-system::extension-apiserver-authentication::client-ca-file
+I0723 14:26:53.786030       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::client-ca-file
+I0723 14:26:53.786043       1 configmap_cafile_content.go:202] Starting client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file
+I0723 14:26:53.786048       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file
+I0723 14:26:53.787147       1 dynamic_serving_content.go:130] Starting serving-cert::/tmp/apiserver.crt::/tmp/apiserver.key
+I0723 14:26:53.788254       1 tlsconfig.go:240] Starting DynamicServingCertificateController
+I0723 14:26:53.788462       1 secure_serving.go:202] Serving securely on [::]:4443
+I0723 14:26:53.886190       1 shared_informer.go:247] Caches are synced for RequestHeaderAuthRequestController 
+I0723 14:26:53.886600       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::client-ca-file 
+I0723 14:26:53.887567       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file 
+E0723 14:28:56.799914       1 scraper.go:139] "Failed to scrape node" err="Get \"https://10.224.0.5:10250/stats/summary?only_cpu_and_memory=true\": dial tcp 10.224.0.5:10250: connect: no route to host" node="aks-agentpool-16430811-vmss000001"
+E0723 14:29:56.798447       1 scraper.go:139] "Failed to scrape node" err="Get \"https://10.224.0.5:10250/stats/summary?only_cpu_and_memory=true\": dial tcp 10.224.0.5:10250: connect: no route to host" node="aks-agentpool-16430811-vmss000001"
+E0723 14:30:56.798508       1 scraper.go:139] "Failed to scrape node" err="Get \"https://10.224.0.5:10250/stats/summary?only_cpu_and_memory=true\": dial tcp 10.224.0.5:10250: connect: no route to host" node="aks-agentpool-16430811-vmss000001"
+E0723 14:31:55.422410       1 scraper.go:139] "Failed to scrape node" err="Get \"https://10.224.0.5:10250/stats/summary?only_cpu_and_memory=true\": dial tcp 10.224.0.5:10250: connect: no route to host" node="aks-agentpool-16430811-vmss000001"

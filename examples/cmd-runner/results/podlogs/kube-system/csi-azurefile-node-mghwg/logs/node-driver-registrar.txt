@@ -1,0 +1,11 @@
+I0723 14:11:00.572891       1 main.go:166] Version: v2.5.0-0-ge68322fe
+I0723 14:11:00.572962       1 main.go:167] Running node-driver-registrar in mode=registration
+I0723 14:11:00.573427       1 main.go:191] Attempting to open a gRPC connection with: "/csi/csi.sock"
+I0723 14:11:05.545519       1 main.go:198] Calling CSI driver to discover driver name
+I0723 14:11:05.547224       1 main.go:208] CSI driver name: "file.csi.azure.com"
+I0723 14:11:05.547262       1 node_register.go:53] Starting Registration Server at: /registration/file.csi.azure.com-reg.sock
+I0723 14:11:05.547594       1 node_register.go:62] Registration Server started at: /registration/file.csi.azure.com-reg.sock
+I0723 14:11:05.548040       1 node_register.go:92] Skipping HTTP server because endpoint is set to: ""
+I0723 14:11:05.689979       1 main.go:102] Received GetInfo call: &InfoRequest{}
+I0723 14:11:05.690209       1 main.go:109] "Kubelet registration probe created" path="/var/lib/kubelet/plugins/file.csi.azure.com/registration"
+I0723 14:11:05.732750       1 main.go:120] Received NotifyRegistrationStatus call: &RegistrationStatus{PluginRegistered:true,Error:,}

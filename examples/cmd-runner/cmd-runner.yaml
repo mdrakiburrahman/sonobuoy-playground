@@ -1,0 +1,15 @@
+sonobuoy-config:
+  driver: Job
+  plugin-name: cmd-runner
+  result-format: raw
+spec:
+  args:
+  - echo ➡️ Running a command!
+  - kubectl cluster-info
+  - kubectl auth can-i get pods
+  - echo ➡️ Done!
+  command:
+  - ./run.sh
+  image: mdrrakiburrahman/cmd-runner:v0.1
+  name: plugin
+

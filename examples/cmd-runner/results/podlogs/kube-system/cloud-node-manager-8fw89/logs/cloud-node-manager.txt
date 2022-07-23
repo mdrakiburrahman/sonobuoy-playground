@@ -1,0 +1,9 @@
+W0723 14:11:01.917354       1 client_config.go:617] Neither --kubeconfig nor --master was specified.  Using the inClusterConfig.  This might not work.
+I0723 14:11:02.144028       1 nodemanager.go:104] Version: v1.23.11
+I0723 14:11:02.144080       1 nodemanager.go:105] NodeName: aks-agentpool-16430811-vmss000002
+I0723 14:11:02.181854       1 nodemanager.go:140] Sending events to api server.
+I0723 14:11:02.182456       1 nodemanager.go:156] Started cloud-node-manager
+I0723 14:11:02.356449       1 nodemanager.go:357] Initializing node aks-agentpool-16430811-vmss000002 with cloud provider
+I0723 14:11:02.452713       1 nodemanager.go:420] Successfully initialized node aks-agentpool-16430811-vmss000002 with cloud provider
+I0723 14:11:02.452749       1 nodemanager.go:357] Initializing node aks-agentpool-16430811-vmss000002 with cloud provider
+I0723 14:11:02.474119       1 nodemanager.go:357] Initializing node aks-agentpool-16430811-vmss000002 with cloud provider
